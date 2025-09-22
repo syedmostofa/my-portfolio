@@ -55,6 +55,8 @@ img {
 .btnBlue {
     background: #3882F6;
     border-radius: 10px;
+    height: 50px;
+    font-weight: bold;
 }
 
 #portfolio {
@@ -114,6 +116,10 @@ img {
     justify-content: center; 
     align-items: center;
     padding: 0 20px; 
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 
