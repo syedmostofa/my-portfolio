@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 
 }
 .header {
@@ -32,7 +33,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.hero {
+#hero {
     background: #1F2937;
     color: #E5E7EB;
     display: flex;
@@ -50,3 +51,69 @@ body {
 img {
     height: 300px;
 }
+
+.btnBlue {
+    background: #3882F6;
+    border-radius: 10px;
+}
+
+#portfolio {
+    display: flex;
+    height: 700px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.portDiv {
+    height: 400px;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.portDiv img {
+    
+    border: 3px solid #333;
+    border-radius: 8px;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;;
+    color: #1F2937;
+    height: 400px;
+}
+
+#CTA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color: white;
+    height: 300px;
+}
+
+.btnCTA {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    border-color: white;
+    font-weight: bold;
+}
+
+#footer {
+    background: black;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 20px; 
+}
+
+
