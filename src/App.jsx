@@ -1,35 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from './components/Navbar';
+import './index.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+
+      {/* Placeholder sections — we'll build these out in coming steps */}
+      <main>
+        <section id="about"      style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--muted)' }}>Hero / About — coming in Step 3</section>
+        <section id="skills"     style={{ minHeight: '60vh',  display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--muted)' }}>Skills — coming soon</section>
+        <section id="experience" style={{ minHeight: '60vh',  display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--muted)' }}>Experience — coming soon</section>
+        <section id="education"  style={{ minHeight: '60vh',  display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--muted)' }}>Education — coming soon</section>
+        <section id="contact"    style={{ minHeight: '60vh',  display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--muted)' }}>Contact — coming soon</section>
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
