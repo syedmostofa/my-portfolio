@@ -55,7 +55,7 @@ export default function Hero() {
 
           {/* Social links */}
           <div className="hero__socials">
-            <a href="https://x.com/syedfromsylhet" target="_blank" rel="noreferrer" className="hero__social-link" aria-label="Twitter">
+            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hero__social-link" aria-label="GitHub">
               <RiGithubFill size={20} />
             </a>
             <a href="https://www.linkedin.com/in/smostofamoosa/" target="_blank" rel="noreferrer" className="hero__social-link" aria-label="LinkedIn">
@@ -72,7 +72,7 @@ export default function Hero() {
         <div className="hero__avatar-wrap">
           <div className="hero__avatar-ring" />
           <div className="hero__avatar">
-            <span className="hero__avatar-initials">SMM</span>
+            <img src="/your-photo.png" alt="Syed Mostofa Moosa" style={{width:'100%',height:'100%',objectFit:'cover'}} />
           </div>
           {/* Floating badges */}
           <div className="hero__badge hero__badge--1">⚡ Open to work</div>
